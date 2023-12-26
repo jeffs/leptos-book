@@ -76,7 +76,7 @@ support request was made to integrate the contents of this PR.
 
 ## 2) Set up `leptosfmt` With Rust Analyzer (optional)
 
-"leptosfmt" is a formatter for the Leptos `view!` macro (inside of which you'll typically write your UI code). Because the view! macro enables an 'RSX' (like JSX) style of writing your UI's, cargo-fmt has a harder time auto-formatting your code that's inside the view! macro. leptosfmt is a crate that solves your formattting issues and keeps your RSX-style UI code looking nice and tidy!
+"leptosfmt" is a formatter for the Leptos `view!` macro (inside of which you'll typically write your UI code). Because the view! macro enables an 'RSX' (like JSX) style of writing your UIs, cargo-fmt has a harder time auto-formatting your code that's inside the view! macro. leptosfmt is a crate that solves your formattting issues and keeps your RSX-style UI code looking nice and tidy!
 
 leptosfmt can be installed and used via the commandline or from within your code editor:
 
@@ -87,4 +87,3 @@ If you just want to use the default options from the command line, just run `lep
 If you wish to set up your editor to work with leptosfmt, or if you wish to customize your leptosfmt experience, please see the instructions available on the [leptosfmt github repo's README.md page](https://github.com/bram209/leptosfmt).
 
 Just note that it's recommended to set up your editor with `leptosfmt` on a per-workspace basis for best results.
-

@@ -49,7 +49,7 @@ view! {
 >
 > One odd quirk is that there is a distinction between HTML attributes and DOM element properties, i.e., between something called an “attribute” which is parsed from HTML and can be set on a DOM element with `.setAttribute()`, and something called a “property” which is a field of the JavaScript class representation of that parsed HTML element.
 >
-> In the case of an `<input value=...>`, setting the `value` _attribute_ is defined as setting the initial value for the input, and setting `value` _property_ sets its current value. It maybe easiest to understand this by opening `about:blank` and running the following JavaScript in the browser console, line by line:
+> In the case of an `<input value=...>`, setting the `value` _attribute_ is defined as setting the initial value for the input, and setting `value` _property_ sets its current value. It may be easiest to understand this by opening `about:blank` and running the following JavaScript in the browser console, line by line:
 >
 > ```js
 > // create an input and append it to the DOM
@@ -144,7 +144,7 @@ Two form elements tend to cause some confusion, in different ways.
 ### `<textarea>`
 
 Unlike `<input>`, the `<textarea>` element does not support a `value` attribute.
-Instead, it receives its value as a plain text node in its HTML children,
+Instead, it receives its value as a plain text node in its HTML children.
 
 In the current version of Leptos (in fact in Leptos 0.1-0.5), creating a dynamic child
 inserts a comment marker node. This can cause incorrect `<textarea>` rendering (and issues
